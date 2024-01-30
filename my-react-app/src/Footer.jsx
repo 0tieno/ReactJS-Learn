@@ -1,11 +1,14 @@
 
 function Footer(){
     return(
-        <footer>
-            <p>
-                &copy; {new Date().getFullYear()} - My React App
-            </p>
-        </footer>
+        <>
+            <hr />
+            <footer className="footer">
+                <p>
+                    &copy; {new Date().getFullYear()} - My React App
+                </p>
+            </footer>
+        </>
     );
 }
 
